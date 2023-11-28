@@ -1,0 +1,431 @@
+// ignore_for_file: file_names, deprecated_member_use, unnecessary_import
+
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:gbgg/const/consts.dart';
+
+class LikedPage extends StatefulWidget {
+  const LikedPage({super.key});
+
+  @override
+  State<LikedPage> createState() => _LikedPageState();
+}
+
+class _LikedPageState extends State<LikedPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: bcolor,
+      appBar: AppBar(
+        backgroundColor: bcolor,
+        title: const Text('W I S H L I S T'),
+
+
+      ),
+      body:   SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: DataTable(dividerThickness:9 ,
+              columns: const  [
+                DataColumn(label: Text('person roll')),
+                DataColumn(label: Text('Name')),
+                DataColumn(label: Text('street')),
+                DataColumn(label: Text('Home no')),
+                DataColumn(label: Text('Gender')),
+                DataColumn(label: Text('village')),
+              ],
+               rows: const [
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('2')),
+                  DataCell(Text('tejasai')),
+                  DataCell(Text('gandhi nager')),
+                  DataCell(Text('49/233')),
+                  DataCell(Text('F')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('3')),
+                  DataCell(Text('deepu')),
+                  DataCell(Text('kamal nager')),
+                  DataCell(Text('5b')),
+                  DataCell(Text('f')),
+                  DataCell(Text('ATP')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('4')),
+                  DataCell(Text('yawar')),
+                  DataCell(Text('dmm')),
+                  DataCell(Text('12/4733')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('2')),
+                    DataCell(Text('tejasai')),
+                    DataCell(Text('gandhi nager')),
+                    DataCell(Text('49/233')),
+                    DataCell(Text('')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('3')),
+                    DataCell(Text('deepu')),
+                    DataCell(Text('kamal nager')),
+                    DataCell(Text('5b')),
+                    DataCell(Text('f')),
+                    DataCell(Text('ATP')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('4')),
+                    DataCell(Text('yawar')),
+                    DataCell(Text('dmm')),
+                    DataCell(Text('12/4733')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+               ],
+              ),
+            ),
+            const SizedBox(height: 40,),
+            const Divider(
+              thickness: 10,
+              color: Color.fromARGB(255, 255, 171, 171)
+              ),
+              const SizedBox(height: 40,),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: DataTable(
+                //dividerThickness:5 ,
+              border: TableBorder.all(color: const Color.fromARGB(255, 255, 255, 255)),
+              columnSpacing: 30,
+              dataRowHeight: 30,
+               headingRowHeight: 40,
+                    dataRowColor: MaterialStateProperty.all(const Color.fromARGB(255, 153, 156, 156)),
+                    headingRowColor:MaterialStateProperty.all(const Color.fromARGB(255, 117, 116, 116)),
+                   dataTextStyle: const TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
+                    headingTextStyle: const TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
+                    horizontalMargin: 20,
+              
+                columns: const [
+                  
+                  DataColumn(label: Text('person roll')),
+                  DataColumn(label: Text('Name')),
+                  DataColumn(label: Text('street')),
+                  DataColumn(label: Text('Home no')),
+                  DataColumn(label: Text('Gender')),
+                  DataColumn(label: Text('village')),
+                ],
+                 rows: const [
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('2')),
+                    DataCell(Text('tejasai')),
+                    DataCell(Text('gandhi nager')),
+                    DataCell(Text('49/233')),
+                    DataCell(Text('')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('3')),
+                    DataCell(Text('deepu')),
+                    DataCell(Text('kamal nager')),
+                    DataCell(Text('5b')),
+                    DataCell(Text('f')),
+                    DataCell(Text('ATP')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('4')),
+                    DataCell(Text('yawar')),
+                    DataCell(Text('dmm')),
+                    DataCell(Text('12/4733')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text('1')),
+                    DataCell(Text('sai')),
+                    DataCell(Text('sive nager')),
+                    DataCell(Text('4/233')),
+                    DataCell(Text('M')),
+                    DataCell(Text('DMM')),
+                  ]),
+                  DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('2')),
+                  DataCell(Text('tejasai')),
+                  DataCell(Text('gandhi nager')),
+                  DataCell(Text('49/233')),
+                  DataCell(Text('')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('3')),
+                  DataCell(Text('deepu')),
+                  DataCell(Text('kamal nager')),
+                  DataCell(Text('5b')),
+                  DataCell(Text('f')),
+                  DataCell(Text('ATP')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('4')),
+                  DataCell(Text('yawar')),
+                  DataCell(Text('dmm')),
+                  DataCell(Text('12/4733')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                DataRow(cells: [
+                  DataCell(Text('1')),
+                  DataCell(Text('sai')),
+                  DataCell(Text('sive nager')),
+                  DataCell(Text('4/233')),
+                  DataCell(Text('M')),
+                  DataCell(Text('DMM')),
+                ]),
+                 ],
+                ),
+            ),
+          ],
+        ),
+      )
+         
+                
+        
+      
+    );
+  }
+}
